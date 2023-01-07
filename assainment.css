@@ -60,6 +60,7 @@
 
 .section-two{
     display: flex;
+    justify-content: center;
 }
 
 .section-two-img{
@@ -89,9 +90,12 @@
 /* done */
 /* section-three */
 
+.section-three{
+    text-align: center;
+}
+
 .section-three-title{
     margin: 50px 0px;
-    text-align: center;
     font-size: 40px;
     font-weight: 650;
     padding-bottom: 50px;
@@ -114,13 +118,64 @@
     font-size: 22px;
     color: grey;
 }
+
+.plan{
+    background: white;
+    width: 240px;
+    height: 320px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+
 /* done */
+/* experience */
+
+.Basic-experience{
+    text-align: center;
+    padding: 25px 100px;
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.experience-container{
+    display: flex; 
+    gap: 30px;
+    justify-content: center; 
+}
+
+.experience-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.experience-description{
+    color: grey;
+    font-size: 18px;
+}
+.experience{
+    background: white;
+    width: 240px;
+    height: 320px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
+}
+
+/* done */
+
 /* section four */
 .section-four{
     background-image: url(gradient/watch.png);
     margin: 125px 200px 50px 200px;
     background-size: contain;
     background-repeat: no-repeat;
+    justify-content: center;
 }
 .section-four-title{
     font-size: 35px;
